@@ -1,7 +1,6 @@
 module Normalization
 (
 	allZScores,
-	zScoreWithList,
 	zScore
 ) where
 
