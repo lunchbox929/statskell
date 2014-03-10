@@ -4,3 +4,4 @@ l-dev
 *.chi
 *.chs.h
 .virthualenv
+.DS_Store
