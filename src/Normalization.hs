@@ -19,5 +19,5 @@ allZScores xs = map getZ xs
 -- This will take a Score, a Mean, and a Standard Deviation and return the
 -- Z Score of the Score parameter
 zScore :: (Floating a) => a -> a -> a -> a
-aScore _ 0 _ = error "You can't have a standard deviation of 0"
+aScore _ 0 _ = error "You can't calculate the z score when the standard deviation is 0"
 zScore mean stdDev score = (score - mean) / stdDev
